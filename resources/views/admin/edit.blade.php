@@ -34,15 +34,13 @@
                     <div class="mb-3 row">
                         <label for="project-description" class="col-sm-3 col-form-label">Description</label>
                         <div class="col-sm-8">
-                        <input type="text" class="form-control" id="project-description" name="description" value="{{ old('description', $project->description)}}">
+                            <textarea name="description" id="description" required class="form-control">{{ old('description', $project->description) }}</textarea>
                         </div>
                     </div>
-                    <div class="mb-3 row">
-                        <label for="project-category" class="col-sm-3 col-form-label">Category (Linguages)</label>
-                        <div class="col-sm-8">
-                        <input type="text" class="form-control" id="project-category" name="category" value="{{ old('category', $project->category)}}">
-                        </div>
-                    </div>
+
+                     {{--! Campo para selecionar as tecnologias associadas ao projeto  --}}
+                   
+                    {{--! fim da tabela many-to-may --}}
 
                     {{--TODO dados da segunda tabela: Types --}}
                     <div class="mb-3 row">

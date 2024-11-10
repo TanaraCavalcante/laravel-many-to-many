@@ -9,6 +9,8 @@ class Technology extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['name'];  // Campo preenchível para validaçao
+
     //!Relaçao many to many com Project
     public function projects() // sao tantos projetos por isso escreve no plural
     {
