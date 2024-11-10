@@ -1,0 +1,61 @@
+title,description,category,teck_stack,github_link,creation_date
+hello,Start to used html.,HTML,FE,https://github.com/TanaraCavalcante/htmlcss-hello,2024/6/27
+london-trip,Organizing a trip to London.,HTML,FE,https://github.com/TanaraCavalcante/html-london-trip,2024/7/1
+booleaner,A newspaper page,HTML CSS,FE,https://github.com/TanaraCavalcante/html-css-booleaner,2024/7/1
+tobolist,Simple list in HTML,HTML CSS,FE,https://github.com/TanaraCavalcante/html-css-toboolist,2024/7/2
+flukeout,A fun game to help you learn and practice CSS selectors,CSS,FE,https://github.com/TanaraCavalcante/html-css-flukeout,2024/7/3
+froggy-defense,Game to help you learn and pratictice CSS Flexbox,CSS,FE,https://github.com/TanaraCavalcante/html-css-froggy-defense,2024/7/4
+struttura-discord,"Create the basic structure of the layout only with the colored blocks without inserting the actual texts, images etc.",HTML CSS,FE,https://github.com/TanaraCavalcante/htmlcss-struttura-discord,2024/7/5
+discord,Reproduce the project by inserting images and text using discord-layout.,HTML CSS,FE,https://github.com/TanaraCavalcante/htmlcss-discord,2024/7/8
+shoes,Reproduction of a website that sells shoes.,HTML CSS,FE,https://github.com/TanaraCavalcante/htmlcss-shoes,2024/7/10
+boolando,Reproduce the Zalando website.,HTML CSS,FE,https://github.com/TanaraCavalcante/html-css-boolando,2024/7/9
+dropbox,Layout dep progetto del dropbox,HTML CSS,FE,https://github.com/TanaraCavalcante/htmlcss-dropbox,2024/7/11
+resp-wannabe,Page with responsive layout.,HTML CSS,FE,https://github.com/TanaraCavalcante/html-css-resp-wannabe,2024/7/17
+Giallo Booleano,The Giallo Zafferano version following the attached screenshots.,HTML CSS,FE,https://github.com/TanaraCavalcante/htmlcss-responsive-layout,2024/7/18
+spotifyweb,The layout of this exercise is that of a web app: the content of the page can never leave the viewport!,HTML CSS,FE,https://github.com/TanaraCavalcante/html-css-spotifyweb,2024/7/19
+bootstrap-freelancer,Used Bootstrap 5 to recreate the responsive Freelancer template.,HTML CSS,FE,https://github.com/TanaraCavalcante/html-css-bootstrap-freelancer,2024/7/24
+bootstrap-dashboard,"Recreated the responsive layout of a dashboard, i.e. the control panel of a hypothetical web application, following the attached screenshots.",HTML CSS,FE,https://github.com/TanaraCavalcante/html-css-bootstrap-dashboard,2024/7/26
+humancode,A brainstorming to analyze and break down a problem assigned by the tutors and produce the flow diagram.,HTML CSS,FE,https://github.com/TanaraCavalcante/human-code,2024/7/29
+pwdgen-wanabbe,An INSICURO password generator.,HTML JavaScript,FE,https://github.com/TanaraCavalcante/js-pwdgen-wannabe,2024/7/30
+biglietto-treno,The program will have to ask the user the number of kilometers he wants to travel and the age of the passenger.,HTML JavaScript,FE,https://github.com/TanaraCavalcante/js-biglietto-treno,2021/7/31
+biglietto-treno-form,"Write a program that asks the user: - The number of kilometers to travel, - The number of kilometers to travel. Based on this information you will have to calculate the total price of the travel ticket, according to the following rules:- The number of kilometers to travel, - a 20% discount must be applied for minors, - a 40% discount applies for those over 65.",HTML JavaScript,FE,https://github.com/TanaraCavalcante/js-biglietto-treno-form,2024/8/1
+mail-dadi,"Generate a random number from 1 to 6, for both the player and the computer.
+Determine the winner based on who has the highest score.
+We print the two shots and the result on the page.",HTML JavaScript,FE,https://github.com/TanaraCavalcante/js-mail-dadi,2024/8/19
+Array carousel,Photo carousel,HTML CSS JavaScript,FE,https://github.com/TanaraCavalcante/js-array-carousel,2024/8/20
+pali e dispari,Odd or even game.,HTML JavaScript,FE,https://github.com/TanaraCavalcante/js-paliedispari,2024/8/22
+campominato grid,campominato game,HTML CSS JavaScript,FE,https://github.com/TanaraCavalcante/js-campominato-grid,2024/8/23
+campominato DOM,campominato game with logic.,HTML CSS JavaScript,FE,https://github.com/TanaraCavalcante/js-campominato-dom,2024/8/26
+Simon Says ,memory game,HTML CSS JavaScript,FE,https://github.com/TanaraCavalcante/js-simon,2024/8/27
+Our team,"Using the data provided, an array of objects was created to represent the team members.
+Each member is characterized by the following information: name, role and photo.",HTML JavaScript,FE,https://github.com/TanaraCavalcante/js-our-team,2024/8/28
+FizzBuzzDom,"A program that prints the numbers from 1 to 100 in the console, but that
+for multiples of 3 molds “Fizz” instead of the number
+for multiples of 5 “Buzz” dies instead of the number.
+For numbers that are either multiples of 3 or 5 print “FizzBuzz” in place of the number.",HTML CSS JavaScript,FE,https://github.com/TanaraCavalcante/js-fizzbuzzdom,2024/9/2
+Vue-hellow,Started vue with a HELLO!,HTML JavaScript,FE,https://github.com/TanaraCavalcante/vue-hello,2024/9/3
+Vue-slider,image carousel,HTML CSS JavaScript,FE,https://github.com/TanaraCavalcante/vue-slider,2024/9/4
+Vue-todolist,Vue list,HTML CSS JavaScript,FE,https://github.com/TanaraCavalcante/vue-todolist,2024/9/5
+Vue-boolzapp,Whats app version,HTML CSS JavaScript,FE,https://github.com/TanaraCavalcante/vue-boolzapp,2024/9/6
+Vue email-list,generate 10 indirizzi email via API,HTML JavaScript,FE,https://github.com/TanaraCavalcante/vue-email-list,2024/9/11
+Vite hello-word,Started Vite with a Hello!,HTML CSS JavaScript Vue,FE,https://github.com/TanaraCavalcante/vite-hello-world,2024/9/13
+Vite comics,A Dc-comics website project,HTML CSS JavaScript Vue,FE,https://github.com/TanaraCavalcante/vite-comics,2024/9/16
+Vite Yu-gi-oh,A website project that shows Yu-Gi-Oh cards with the help of an API.,HTML CSS JavaScript Vue,FE,https://github.com/TanaraCavalcante/vite-yu-gi-oh,2024/9/18
+Vite Booflix,A project that is similar to Netflix,HTML CSS JavaScript Vue,FE,https://github.com/TanaraCavalcante/vite-boolflix,2024/9/19
+Avada Fitness,This project is a fitness website built using modern web development technologies.,HTML CSS JavaScript Vue,FE,https://github.com/TanaraCavalcante/proj-html-vuejs,2024/9/27
+badwords,A php form that censors words.,PHP,BE,https://github.com/TanaraCavalcante/php-badwords,2024/10/2
+hotel,A list of hotels in php,PHP,BE,https://github.com/TanaraCavalcante/php-hotel,2024/10/3
+strong password generator,SECURE password generator,PHP CSS,BE,https://github.com/TanaraCavalcante/php-strong-password-generator,2024/10/7
+Dischi Json,Web-app that allows you to read a list of disks present on our server.,PHP CSS JavaScript HTML,BE,https://github.com/TanaraCavalcante/php-dischi-json,2024/10/8
+Oop-1,"A project with the first concepts of class, variables and instance methods.",PHP CSS,BE,https://github.com/TanaraCavalcante/php-oop-1,2024/10/9
+Oop-2,A pet-shop shopping website.,PHP CSS,BE,https://github.com/TanaraCavalcante/php-oop-2,2024/10/10
+db-first,First work with database,MSQL,BE,https://github.com/TanaraCavalcante/db-first,2024/10/14
+db-university,"I import the schema into SQL, and follow the file query submitted by the project.",MSQL,BE,https://github.com/TanaraCavalcante/db-university,2024/10/16
+Laravel New,Started with Laravel framework.,PHP Blade JavaScript,BE,https://github.com/TanaraCavalcante/laravel-new,2024/10/21
+Laravel Primi passi,getting started with laravel.,PHP Blade JavaScript,BE,https://github.com/TanaraCavalcante/laravel-primi-passi,2024/10/21
+Laravel Template,A pre-made template for Laravel projects.,PHP Blade ,BE,https://github.com/TanaraCavalcante/laravel-template-ok,2024/10/22
+Laravel Comics,DC-comics website project with Laravel.,PHP Blade ,BE,https://github.com/TanaraCavalcante/laravel-comics,2024/10/22
+Laravel Model controller,Interaction with the database using the Laravel ORM.,PHP Blade ,BE,https://github.com/TanaraCavalcante/laravel-model-controller,2024/10/24
+Laravel Migration seeder,A table trains with Migration.,PHP Blade ,BE,https://github.com/TanaraCavalcante/laravel-migration-seeder,2024/10/25
+Laravel DC-comics,"Hero movie library, with complete CRUD implemented.",PHP Blade CSS,BE,https://github.com/TanaraCavalcante/laravel-dc-comics,2024/10/29
+Laravel auth,A management system for our project portfolio.,PHP Blade ,BE,https://github.com/TanaraCavalcante/laravel-auth,2024/11/4
