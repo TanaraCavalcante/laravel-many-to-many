@@ -10,7 +10,7 @@
                         <tr>
                             <th scope="col">Project Title</th>
                             <th scope="col">Description</th>
-                            <th scope="col">Category</th>
+
 
                         </tr>
                     </thead>
@@ -19,7 +19,7 @@
                         <tr>
                             <th scope="row">{{ $project->title}}</th>
                             <td class="px-2">{{ $project->description}}</td>
-                            <td>{{ $project->category}}</td>
+                            
                             <td class="col-2">
                                 <a href="{{ route("admin.show", $project->id)}}" class="btn btn-sm btn-outline-warning">Show</a>
                                 <a href="{{ route("admin.edit", $project->id)}}" class="btn btn-sm btn-outline-success">Edit</a>

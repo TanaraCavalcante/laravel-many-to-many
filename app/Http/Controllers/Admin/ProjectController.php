@@ -56,7 +56,11 @@ class ProjectController extends Controller
      */
     public function show(string $id)
     {
-        $project = Project::findOrFail($id);
+        // $project = Project::findOrFail($id);
+
+        //!relacao many to many com tecnologies
+        $project = Project::with('technologies')->findOrFail($id);
+
         return view("admin.show", compact("project"));
     }
 
