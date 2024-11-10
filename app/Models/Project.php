@@ -19,9 +19,15 @@ class Project extends Model
         "creation_date"
     ];
 
-     //! Relaçao "one to Many" com Project
+     //! Relaçao "one to Many" com Type
     public function type()
     {
         return $this->belongsTo(Type::class);
     }
+
+     //! Relaçao "many to Many" com Technology
+     public function technology()
+     {
+         return $this->belongsTo(Technology::class);
+     }
 }
