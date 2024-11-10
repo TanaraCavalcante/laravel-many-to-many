@@ -24,7 +24,6 @@ class TechnologySeeder extends Seeder
         foreach($technologies as $technology){
             $newTechnology= new Technology();
             $newTechnology->name = $technology;
-            
             $newTechnology->save();
         }
     }
