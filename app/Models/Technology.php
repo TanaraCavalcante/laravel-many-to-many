@@ -10,7 +10,7 @@ class Technology extends Model
     use HasFactory;
 
     //!Relaçao many to many com Project
-    public function projects()
+    public function projects() // sao tantos projetos por isso escreve no plural
     {
         return $this->belongsToMany(Project::class);
     }

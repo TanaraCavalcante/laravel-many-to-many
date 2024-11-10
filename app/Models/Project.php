@@ -20,13 +20,13 @@ class Project extends Model
     ];
 
      //! Relaçao "one to Many" com Type
-    public function type()
+    public function type() //um tipo pode servir para varios projetos
     {
         return $this->belongsTo(Type::class);
     }
 
      //! Relaçao "many to Many" com Technology
-     public function technology()
+     public function technologies() //nome no plural para relacao many to many
      {
          return $this->belongsTo(Technology::class);
      }

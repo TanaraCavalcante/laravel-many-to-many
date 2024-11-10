@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\Type;
 use App\Models\Project;
 use App\Functions\Helpers;
+use App\Models\Technology;
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Faker\Generator as Faker;
@@ -19,6 +20,7 @@ class ProjectSeeder extends Seeder
         //percorso per prendere il file csv
         $csvData = Helpers::getCsv(__DIR__."/projects-list.csv");
 
+        //!Dados de Type
         $typeIds = Type::all()->pluck("id");
 
         foreach($csvData as $indice => $riga){
