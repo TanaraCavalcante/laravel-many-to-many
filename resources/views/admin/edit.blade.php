@@ -38,9 +38,6 @@
                         </div>
                     </div>
 
-                     {{--! Campo para selecionar as tecnologias associadas ao projeto  --}}
-                   
-                    {{--! fim da tabela many-to-may --}}
 
                     {{--TODO dados da segunda tabela: Types --}}
                     <div class="mb-3 row">
@@ -60,19 +57,19 @@
                     <div class="mb-3 row">
                         <label for="project-github_link" class="col-sm-3 col-form-label">GitHub Link</label>
                         <div class="col-sm-8">
-                        <input type="url" class="form-control" id="project-github_link" name="github_link" value="{{ old('github_link', $project->github_link)}}">
+                            <input type="url" class="form-control" id="project-github_link" name="github_link" value="{{ old('github_link', $project->github_link)}}">
                         </div>
                     </div>
 
                     <div class="mb-3 row">
                         <label for="project-tech_stack" class="col-sm-3 col-form-label">Project Type</label>
                         <div class="col-sm-2">
-                        <input type="text" class="form-control" id="project-tech_stack" name="tech_stack" value="{{ old('tech_stack'), $project->tech_stack}}">
+                             <input type="text" class="form-control" id="project-tech_stack" name="tech_stack" value="{{ old('tech_stack'), $project->tech_stack}}">
                         </div>
 
                         <label for="project-creation_date" class="col-sm-3 col-form-label text-end">Created on the date</label>
                         <div class="col-sm-3">
-                        <input type="date" class="form-control " id="project-creation_date" name="creation_date" value="{{ old('creation_date', $project->creation_date)}}">
+                            <input type="date" class="form-control " id="project-creation_date" name="creation_date" value="{{ old('creation_date', $project->creation_date)}}">
                         </div>
                     </div>
 

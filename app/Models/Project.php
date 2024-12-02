@@ -12,7 +12,7 @@ class Project extends Model
     protected $fillable = [
         "title",
         "description",
-        "category",
+        // "category",
         "tech_stack",
         "type_id", //!Dados da tabela secundaria
         "github_link",

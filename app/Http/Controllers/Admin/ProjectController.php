@@ -41,7 +41,7 @@ class ProjectController extends Controller
         $formData = $request->validate([
             "title" => "required|string|min:2|max:255", //uma stringa con min 4 caracter max 255, pois no db è un VARCHAR(255)
             "description" => "required|string|min:6|max:255",
-            "category" => "required|string|min:2|max:255",
+            // "category" => "required|string|min:2|max:255",
             "type_id"=>"required|numeric|integer|exists:types,id", //!Tabela secundaria
             "tech_stack" => "required|string|min:2|max:255",
             "github_link" => "required|url",
@@ -59,7 +59,7 @@ class ProjectController extends Controller
      */
     public function show(string $id)
     {
-        //TODO $project = Project::findOrFail($id); ---- metodo anterior sem a many-to-many
+        // $project = Project::findOrFail($id); ---- metodo anterior sem a many-to-many
 
         //!relacao many to many com tecnologies
         $project = Project::with('technologies')->findOrFail($id);
@@ -87,7 +87,7 @@ class ProjectController extends Controller
         $formData = $request->validate([
             "title" => "required|string|min:2|max:255", //uma stringa con min 4 caracter max 255, pois no db è un VARCHAR(255)
             "description" => "required|string|min:6|max:255",
-            "category" => "required|string|min:2|max:255",
+            // "category" => "required|string|min:2|max:255",
             "type_id"=>"required|numeric|integer|exists:types,id", //!Tabela secundaria
             "tech_stack" => "required|string|min:2|max:255",
             "github_link" => "required|url",
@@ -103,7 +103,7 @@ class ProjectController extends Controller
 
         $project->title = $formData["title"];
         $project->description = $formData["description"];
-        $project->category = $formData["category"];
+        // $project->category = $formData["category"];
         $project->category = $formData["type_id"];  //!Tabela secundaria
         $project->tech_stack = $formData["tech_stack"];
         $project->github_link = $formData["github_link"];
